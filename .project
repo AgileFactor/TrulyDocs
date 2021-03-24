@@ -35,14 +35,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/agile.png</locationURI>
 		</link>
 		<link>
-			<name>WebContent/retangulo.png</name>
+			<name>WebContent/lupa.png</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/retangulo.png</locationURI>
-		</link>
-		<link>
-			<name>WebContent/trulydocs.png</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/trulydocs.png</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/lupa.png</locationURI>
 		</link>
 		<link>
 			<name>WebContent/voltar.png</name>

@@ -7,74 +7,108 @@
 <title>TrulyDocs</title>
 
 <style type="text/css">
-button {
+
+  body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 200px;
+  z-index: 1;
+  top: 260px;
+  left: 100px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin-left:50px;
+  margin-top:54px;
+}
+
+.sidenav a {
+  padding: 10px 30px 25px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #3366cc;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+.top {
+	margin-top:
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.button1 {
 background:transparent;
 border:none;
 outline:none;
-height:20px;
+display:block;
+height:200px;
 width:200px;
 cursor:pointer;
-font-size:140%;
-text-align:left;
-color: #3366cc;
 }
-
+.button2{
+ text-align: center;
+ font-size: 22px;
+ margin-left:50px;
+ border:none;
+ margin-top:30px;
+ color:#3366cc;
+  
+}
 
 #divprocura{
   background-color:white;
-  border:solid 2px #216BB9;
-  border-radius:10px;
+  border:solid 2px;
+  border-radius:15px;
+  border-color:#3366cc;
   width:300px;
-  height:32px;
-  padding-left:5px;
-  margin-left: 28%; 
-  position: absolute;
-  top: 20%;
 }
 
 #txtprocura{
   float:left;
   background-color:transparent;
   padding-left:5px;
-  font-size:18px;
+  font-style:italic;
+  font-size:16px;
   border:none;
   height:32px;
-  width:191px;
-}
-
-#btnprocura{
-  border:none;
-  float:right;
-  height:32px;
-  border-radius:0 7px 7px 0;
-  width:50px;
-  font-weight:bold;
-  background:#216BB9;
+  width:260px;
 }
 </style>
 
 </head>
 <body>
 <img id="photo" src="agile.png" alt="AgileFactor" style="width:200px;height:150px;position:absolute; left:10px; top:-40px; z-index: 2;">
-<button onclick="" ><img id="photo" src="voltar.png" alt="voltar" style="width:5%;height:5%;position:absolute; left:1px; top:140px; z-index: 2;"></button>
-<img id="photo" src="trulydocs.png" alt="trulydocs" style="width:150px;height:150px;position:absolute; left:100px; top:140px; z-index: 2;">
-<img id="photo" src="retangulo.png" alt="retangulo" style="width:500px;height:500px;position:absolute; left:-80px; top:160px; z-index: 2;">
+<button class="button button1" ><img id="photo" src="voltar.png" alt="voltar" style="width:5%;height:5%;position:absolute; left:1px; top:140px; z-index: 2;"></button>
+<h1 style="position:absolute; left:100px; top:125px; color:#3366cc;">TrulyDocs</h1>
 
-<table  border="0px" style="position:absolute; left:75px; top:250px; z-index: 6;">
-	<tr>
-	    <th><button onclick="" >&#9679;  Página Inicial</button></th>
-  	</tr>
-  	<tr>
-	    <th><button onclick="">&#9679;   Documentos</button></th>
-  	</tr>
-  	<tr>
-	    <th><button onclick="">&#9679;   Ficheiros</button></th>
-  	</tr>
-</table>
 
-<div id="divprocura">
-  	<input type="text" id="txtprocura" placeholder="Procurar..."/>
-  	<button id="btnprocura">&#128269;</button>
+<div class="sidenav">
+  <a href="#Página Inicial">Página inicial</a>
+  <a href="#Documentos">Documentos</a>
+  <a href="#Ficheiros">Ficheiros</a>
+</div>
+
+<button class="button button2">Create Doc</button>
+
+
+<div id="divprocura" style="position:absolute; left:500px; top:150px;">
+  <input type="text" id="txtprocura" placeholder="Procurar..."/>
+  <img src="lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>
 </div>
 
 </body>
