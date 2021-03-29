@@ -121,7 +121,7 @@ color: white;
  <tr>
     <th><input type="checkbox" name=mybox value="1"></th>
     <th class="nd">--------</th>
-    <th>--------</th>
+    <th>--------_</th>
     <th>--------</th>
     <th class="nd">--------</th>
     <th></th>
