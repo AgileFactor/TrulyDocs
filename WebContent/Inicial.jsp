@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Página Inicial</title>
-<img src="agile.png" width="160" height="110">
+<img src="agile.png width="160" height="110">
 <p></p>
 
 <h2>TrulyDocs</h2>

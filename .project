@@ -28,21 +28,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>WebContent/agile.png</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/agile.png</locationURI>
-		</link>
-		<link>
-			<name>WebContent/lupa.png</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/lupa.png</locationURI>
-		</link>
-		<link>
-			<name>WebContent/voltar.png</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/voltar.png</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
