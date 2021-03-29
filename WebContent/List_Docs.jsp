@@ -11,7 +11,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 .sidenav {
-  width: 200px;
+  width: 230px;
   z-index: 1;
   top: 240px;
   left: 100px;
@@ -20,6 +20,7 @@ body {
   padding: 8px 0;
   margin-left:50px;
   margin-top:45px;
+  font-weight: bold
 }
 .sidenav a {
   padding: 10px 30px 25px 16px;
@@ -39,6 +40,7 @@ display:block;
 height:200px;
 width:200px;
 cursor:pointer;
+
 }
 .button2{
  text-align: center;
@@ -47,6 +49,7 @@ cursor:pointer;
  border:none;
  margin-top:30px;
  color:#3366cc;
+   font-weight: bold
   
 }
 #divprocura{
@@ -89,23 +92,23 @@ color: white;
 
 </head>
 <body>
-<img id="photo" src="agile.png" alt="AgileFactor" style="width:200px;height:150px;position:absolute; left:10px; top:-40px; z-index: 2;">
-<button class="button button1" ><img id="photo" src="voltar.png" alt="voltar" style="width:5%;height:5%;position:absolute; left:1px; top:140px; z-index: 2;"></button>
+<img id="photo" src="img/agile.png" alt="AgileFactor" style="width:200px;height:150px;position:absolute; left:10px; top:-40px; z-index: 2;">
+<button class="button button1" ><img id="photo" src="img/voltar.png" alt="voltar" style="width:5%;height:5%;position:absolute; left:1px; top:140px; z-index: 2;"></button>
 <h1 style="position:absolute; left:100px; top:125px; color:#3366cc;">TrulyDocs</h1>
 
 
 <div class="sidenav">
-  <a href="#Página Inicial">Página inicial</a>
-  <a href="#Documentos">Documentos</a>
-  <a href="#Ficheiros">Ficheiros</a>
+  <a href="http://localhost:8080/TrulyDocs/Inicial.jsp">Página inicial</a>
+  <a href="http://localhost:8080/TrulyDocs/List_Docs.jsp">Documentos</a>
+  <a href="http://localhost:8080/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
 
 <button class="button button2">Create Doc</button>
 
 
-<div id="divprocura" style="position:absolute; left:500px; top:150px;">
+<div id="divprocura" style="position:absolute; left:370px; top:180px;">
   <input type="text" id="txtprocura" placeholder="Procurar..."/>
-  <img src="lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>
+  <img src="img/lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>
 </div>
 
 
