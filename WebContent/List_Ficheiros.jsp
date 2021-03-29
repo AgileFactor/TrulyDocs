@@ -1,9 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Lista ficheiro</title>
-<img src="/home/tiago/Desktop/Projetos/Java/TrulyDocs/emblema.png" width="160" height="110">
+<img src="agile.png" width="160" height="110">
 <p></p>
 
 <h2>TrulyDocs</h2>
