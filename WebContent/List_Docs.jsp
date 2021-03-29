@@ -84,6 +84,7 @@ text-align: left;
 background-color:#3366cc;
 color: white;
 }
+
 </style>
 
 </head>
@@ -110,7 +111,7 @@ color: white;
 
 <table>
  <tr >
-    <th class="th cc" style="width:4%">#</th>
+    <th class="th cc" style="width:4%"><input type="checkbox" name=mybox value="1"></th>
     <th class="th cc" style="width:28%">Name</th>
     <th class="th cc" style="width:10%">Date</th>
     <th class="th cc" style="width:10%">Last Updated</th>
@@ -118,13 +119,13 @@ color: white;
     <th class="th cc" style="width:10%">Operations</th>
   </tr>
  <tr>
-    <th>--------</th>
+    <th><input type="checkbox" name=mybox value="1"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
     <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
+    <th></th>
+ </tr>
 </table>
 </body>
 </html>
