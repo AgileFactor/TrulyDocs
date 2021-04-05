@@ -28,7 +28,6 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-<<<<<<< HEAD
 	<linkedResources>
 		<link>
 			<name>WebContent/img/agile.png</name>
@@ -46,6 +45,4 @@
 			<locationURI>PARENT-2-PROJECT_LOC/voltar.png</locationURI>
 		</link>
 	</linkedResources>
-=======
->>>>>>> branch 'master' of https://github.com/AgileFactor/TrulyDocs.git
 </projectDescription>
