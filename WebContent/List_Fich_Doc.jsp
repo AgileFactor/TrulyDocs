@@ -5,119 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>TrulyDocs</title>
-
-<style type="text/css">
-body {
-  font-family: "Lato", sans-serif;
-}
-.sidenav {
-  width: 230px;
-  z-index: 1;
-  top: 240px;
-  left: 100px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-  margin-left:50px;
-  margin-top:30px;
-  font-weight: bold
-}
-.sidenav a {
-  padding: 10px 30px 25px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #3366cc;
-  display: block;
-}
-.sidenav a:hover {
-  color: #064579;
-}
-.button1 {
-background:transparent;
-border:none;
-outline:none;
-display:block;
-height:200px;
-width:200px;
-cursor:pointer;
-}
-.button2{
- text-align: center;
- font-size: 22px;
- margin-left:50px;
- border:none;
- margin-top:30px;
- color:#3366cc;
- font-weight: bold
-}
-#divprocura{
-  background-color:white;
-  border:solid 2px;
-  border-radius:15px;
-  border-color:#3366cc;
-  width:300px;
-}
-#txtprocura{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-style:italic;
-  font-size:16px;
-  border:none;
-  height:32px;
-  width:260px;
-}
-table{
-  position: absolute;
-  margin-left: 360px;
-  top: 440px;
-  left:100px;
-}
-th{
-  border: 1px solid black;
-  height:30px;
-  color: #3366cc;
-  background: #eee;
-}
-.nd{
-text-align: left;
-}
-.cc{
-background-color:#3366cc;
-color: white;
-}
-.side{
-  width: 300px;
-  z-index: 1;
-  overflow-x: hidden;
-  padding: 8px 0;
-  margin-left:150px;
-  font-size: 18px;
-  color:#3366cc;
-  font-weight: bold;
-  
-}
-.desc{
-  width: 700px;
-  height:50px;
-  z-index: 1;
-  top: 210px;
-  left: 480px;
-  overflow-x: hidden;
-  padding: 8px 0;
-  position:absolute;
-  color:#3366cc;
-  font-size: 18px;
-  font-weight: bold;
-}
-</style>
-
+<link rel="stylesheet" type="text/css" href="CSS/style_List_Fich_Doc.css">
 </head>
 <body>
 <img id="photo" src="img/agile.png" alt="AgileFactor" style="width:200px;height:150px;position:absolute; left:10px; top:-40px; z-index: 2;">
-<button class="button button1" ><img id="photo" src="img/voltar.png" alt="voltar" style="width:5%;height:5%;position:absolute; left:1px; top:140px; z-index: 2;"></button>
+<button class="button button1" onClick="history.go(-1)" ><img id="photo" src="img/voltar.png" alt="voltar" style="width:5%;height:5%;position:absolute; left:1px; top:140px; z-index: 2;"></button>
 <h1 style="position:absolute; left:100px; top:125px; color:#3366cc;">TrulyDocs</h1>
-
 <div class="side">
 <a>Doc Nome:<br></a>
 <a>Tamanho:<br></a>
@@ -127,18 +20,13 @@ color: white;
 <a>Número de ficheiros:<br></a>
 <a>Tags:</a>
 </div>
-
 <div class="sidenav">
   <a href="http://localhost:8080/TrulyDocs/Inicial.jsp">Página inicial</a>
   <a href="http://localhost:8080/TrulyDocs/List_Docs.jsp">Documentos</a>
   <a href="http://localhost:8080/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
-
 <div class="desc">Descrição longa:</div>
-
 <button class="button button2">Create Doc</button>
-
-
 <div id="divprocura" style="position:absolute; left:460px; top:370px;">
   <input type="text" id="txtprocura" placeholder="Procurar..."/>
   <img src="img/lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>

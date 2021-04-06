@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+  width: 230px;
+  z-index: 1;
+  top: 240px;
+  left: 100px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin-left:50px;
+  margin-top:30px;
+  font-weight: bold
+}
+.sidenav a {
+  padding: 10px 30px 25px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #3366cc;
+  display: block;
+}
+.sidenav a:hover {
+  color: #064579;
+}
+.button1 {
+background:transparent;
+border:none;
+outline:none;
+display:block;
+height:200px;
+width:200px;
+cursor:pointer;
+}
+.button2{
+ text-align: center;
+ font-size: 22px;
+ margin-left:50px;
+ border:none;
+ margin-top:30px;
+ color:#3366cc;
+ font-weight: bold
+}
+#divprocura{
+  background-color:white;
+  border:solid 2px;
+  border-radius:15px;
+  border-color:#3366cc;
+  width:300px;
+}
+#txtprocura{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:16px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+table{
+  position: absolute;
+  margin-left: 360px;
+  top: 440px;
+  left:100px;
+}
+th{
+  border: 1px solid black;
+  height:30px;
+  color: #3366cc;
+  background: #eee;
+}
+.nd{
+text-align: left;
+}
+.cc{
+background-color:#3366cc;
+color: white;
+}
+.side{
+  width: 300px;
+  z-index: 1;
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin-left:150px;
+  font-size: 18px;
+  color:#3366cc;
+  font-weight: bold;
+}
+.desc{
+  width: 700px;
+  height:50px;
+  z-index: 1;
+  top: 210px;
+  left: 480px;
+  overflow-x: hidden;
+  padding: 8px 0;
+  position:absolute;
+  color:#3366cc;
+  font-size: 18px;
+  font-weight: bold;
+}
