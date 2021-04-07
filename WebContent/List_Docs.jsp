@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>TrulyDocs</title>
-<link rel="stylesheet" type="text/css" href="CSS/style_List_docs.css">
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
 <img id="photo" src="img/agile.png" alt="AgileFactor" style="width:200px;height:150px;position:absolute; left:10px; top:-40px; z-index: 2;">
@@ -17,7 +17,7 @@
   <a href="http://localhost:8080/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
 <button class="button button2">Create Doc</button>
-<div id="divprocura" style="position:absolute; left:370px; top:180px;">
+<div id="divprocura" style="position:absolute;top:180px;">
   <input type="text" id="txtprocura" placeholder="Procurar..."/>
   <img src="img/lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>
 </div>
@@ -33,11 +33,101 @@
  <tr>
     <th><input type="checkbox" name=mybox value="1"></th>
     <th class="nd">--------</th>
-    <th>--------_</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
+    <th>--------</th>
+    <th class="nd">--------</th>
+    <th></th>
+ </tr>
+  <tr>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd">--------</th>
+    <th>--------</th>
     <th>--------</th>
     <th class="nd">--------</th>
     <th></th>
  </tr>
 </table>
+<button class="button3">Download Selected</button>
+<button class="button3" style="margin-left:20px">Delete Selected</button>
 </body>
 </html>

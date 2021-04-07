@@ -41,8 +41,17 @@ cursor:pointer;
  border:none;
  margin-top:30px;
  color:#3366cc;
-   font-weight: bold
-  
+ font-weight: bold;
+ position:absolute;
+}
+.button3{
+ margin-left:1000px;
+ margin-top:300px;
+ text-align: center;
+ font-size: 22px;
+ border:none;
+ color:#3366cc;
+ font-weight: bold;
 }
 #divprocura{
   background-color:white;
@@ -50,6 +59,8 @@ cursor:pointer;
   border-radius:15px;
   border-color:#3366cc;
   width:300px;
+  position:absolute;
+  left:460px;
 }
 #txtprocura{
   float:left;
@@ -63,7 +74,7 @@ cursor:pointer;
 }
 table{
   position: absolute;
-  margin-left: 350px;
+  margin-left: 450px;
   top: 252px;
 }
 th{
@@ -78,4 +89,27 @@ text-align: left;
 .cc{
 background-color:#3366cc;
 color: white;
+}
+.desc{
+  width: 700px;
+  height:50px;
+  z-index: 1;
+  top: 210px;
+  left: 455px;
+  overflow-x: hidden;
+  padding: 8px 0;
+  position:absolute;
+  color:#3366cc;
+  font-size: 18px;
+  font-weight: bold;
+}
+.side{
+  width: 300px;
+  z-index: 1;
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin-left:150px;
+  font-size: 18px;
+  color:#3366cc;
+  font-weight: bold;
 }
