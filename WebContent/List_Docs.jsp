@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>TrulyDocs</title>
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
+<script type="text/javascript" src="JS/scripts.js"></script>
 </head>
 <body>
 <img id="photo" src="img/agile.png" alt="AgileFactor" style="width:200px;height:150px;position:absolute; left:10px; top:-40px; z-index: 2;">
@@ -23,7 +24,7 @@
 </div>
 <table>
  <tr >
-    <th class="th cc" style="width:4%"><input type="checkbox" name=mybox value="1"></th>
+    <th class="th cc" style="width:4%"><input type="checkbox" name=mybox onClick="toggle(this)"></th>
     <th class="th cc" style="width:28%">Name</th>
     <th class="th cc" style="width:10%">Date</th>
     <th class="th cc" style="width:10%">Last Updated</th>
@@ -39,7 +40,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="2"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -47,7 +48,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="3"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -55,7 +56,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="4"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -63,7 +64,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="5"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -71,7 +72,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="6"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -79,7 +80,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="7"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -87,7 +88,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="8"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -95,7 +96,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="9"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -103,7 +104,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="10"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -111,7 +112,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="11"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
@@ -119,7 +120,7 @@
     <th></th>
  </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="1"></th>
+    <th><input type="checkbox" name=mybox value="12"></th>
     <th class="nd">--------</th>
     <th>--------</th>
     <th>--------</th>
