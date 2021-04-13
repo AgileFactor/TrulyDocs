@@ -5,60 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Página Inicial</title>
-<img src="agile.png width="160" height="110">
-<p></p>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
 
-<h2>TrulyDocs</h2>
-
+<img src="img/agile.png" width="160" height="110">
 
 </head>
 <body>
 
-<!-- Código temporário depois colocar no css -->
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
 
-.sidenav {
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 200px;
-  left: 20px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 10px 30px 15px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #064579;
-}
-
-.main {
-  margin-left: 140px; 
-  font-size: 28px; 
-  padding: 0px 10px;
-}
-
-.top {
-	margin-top:
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
-</head>
 
 
 
@@ -78,8 +32,4 @@ body {
 
 
 </body>
-
-
-
-
 </html>

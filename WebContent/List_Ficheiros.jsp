@@ -5,68 +5,40 @@
 <head>
 <meta charset="UTF-8">
 <title>Lista ficheiro</title>
-<img src="agile.png" width="160" height="110">
-<p></p>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
 
-<h2>TrulyDocs</h2>
-
-
+<img src="img/agile.png" width="160" height="110">
 </head>
 <body>
 
-<!-- Código temporário depois colocar no css -->
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidenav {
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 200px;
-  left: 20px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 10px 30px 15px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #064579;
-}
-
-.main {
-  margin-left: 140px; 
-  font-size: 28px; 
-  padding: 0px 10px;
-}
-
-.top {
-	margin-top:
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
-</head>
-
-
-
+<!-- Navegador lateral com as diferentes opções -->
 <div class="sidenav">
   <a href="#Página Inicial">Página inicial</a>
   <a href="#Documentos">Documentos</a>
   <a href="#Ficheiros">Ficheiros</a>
+  <button class="button buttonCreateFile">Create File</button>
 </div>
+
+<!-- aba procura para pesquisar ficheiro  -->
+<div id="divprocura" style="position:absolute;top:150px;">
+  <input type="text" id="txtprocura" placeholder="Procurar..."/>
+  <img src="img/lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>
+</div>
+
+<table id ="tableFiles" style="position:absolute; top:250px;">
+ <tr >
+    <th class="th cc" style="width:4%"><input type="checkbox" name=mybox value="1"></th>
+    <th class="th cc" style="width:28%">Name</th>
+    <th class="th cc" style="width:10%">Date</th>
+    <th class="th cc" style="width:10%">Last Updated</th>
+    <th class="th cc" style="width:30%">Short description</th>
+    <th class="th cc" style="width:10%">Operations</th>
+ </tr>
+ 
+    
+   
+ 
+
 <body>
 
 </body>
