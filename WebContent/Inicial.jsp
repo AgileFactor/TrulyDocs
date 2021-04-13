@@ -17,9 +17,9 @@
 
 
 <div class="sidenav">
-  <a href="#Página Inicial">Página inicial</a>
-  <a href="#Documentos">Documentos</a>
-  <a href="#Ficheiros">Ficheiros</a>
+  <a href="http://localhost:8082/TrulyDocs/Inicial.jsp">Página inicial</a>
+  <a href="http://localhost:8082/TrulyDocs/List_Docs.jsp">Documentos</a>
+  <a href="http://localhost:8082/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
 
 <div class="main">
