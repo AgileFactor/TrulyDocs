@@ -22,9 +22,9 @@
 <a>Tags:</a>
 </div>
 <div class="sidenav">
-  <a href="http://localhost:8080/TrulyDocs/Inicial.jsp">Página inicial</a>
-  <a href="http://localhost:8080/TrulyDocs/List_Docs.jsp">Documentos</a>
-  <a href="http://localhost:8080/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
+  <a href="http://localhost:8082/TrulyDocs/Inicial.jsp">Página inicial</a>
+  <a href="http://localhost:8082/TrulyDocs/List_Docs.jsp">Documentos</a>
+  <a href="http://localhost:8082/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
 <div class="desc">Descrição longa:</div>
 <button class="button button2">Create Doc</button>
