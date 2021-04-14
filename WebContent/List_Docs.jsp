@@ -13,9 +13,9 @@
 <button class="button button1" onClick="history.go(-1)"><img id="photo" src="img/voltar.png" alt="voltar" style="width:5%;height:5%;position:absolute; left:1px; top:140px; z-index: 2;"></button>
 <h1 style="position:absolute; left:100px; top:125px; color:#3366cc;">TrulyDocs</h1>
 <div class="sidenav">
-  <a href="http://localhost:8080/TrulyDocs/Inicial.jsp">Página inicial</a>
-  <a href="http://localhost:8080/TrulyDocs/List_Docs.jsp">Documentos</a>
-  <a href="http://localhost:8080/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
+  <a href="http://localhost:8082/TrulyDocs/Inicial.jsp">Página inicial</a>
+  <a href="http://localhost:8082/TrulyDocs/List_Docs.jsp">Documentos</a>
+  <a href="http://localhost:8082/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
 <button class="button button2">Create Doc</button>
 <div id="divprocura" style="position:absolute;top:180px;">
