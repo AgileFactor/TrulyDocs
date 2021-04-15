@@ -27,7 +27,7 @@
   <a href="http://localhost:8082/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
 <div class="desc">Descrição longa:</div>
-<button class="button button2">Create Doc</button>
+
 <div id="divprocura" style="position:absolute;top:345px;">
   <input type="text" id="txtprocura" placeholder="Procurar..."/>
   <img src="img/lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>

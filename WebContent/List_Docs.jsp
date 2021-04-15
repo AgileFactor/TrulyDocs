@@ -17,7 +17,7 @@
   <a href="http://localhost:8082/TrulyDocs/List_Docs.jsp">Documentos</a>
   <a href="http://localhost:8082/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
-<button class="button button2">Create Doc</button>
+<button class="button button2" onclick="">Create Doc</button>
 <div id="divprocura" style="position:absolute;top:180px;">
   <input type="text" id="txtprocura" placeholder="Procurar..."/>
   <img src="img/lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>
