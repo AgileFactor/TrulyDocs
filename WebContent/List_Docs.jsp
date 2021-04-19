@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@page import="pt.agilefactor.truly.docs.dao.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +18,14 @@
   <a href="http://localhost:8082/TrulyDocs/List_Docs.jsp">Documentos</a>
   <a href="http://localhost:8082/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
 </div>
-<button class="button button2" onclick="">Create Doc</button>
+
+
+
+<form action="<%=request.getContextPath()%>/register" method="post">
+<input type="text" name="name">;
+<input class="button button2" type="submit">
+</form>
+
 <div id="divprocura" style="position:absolute;top:180px;">
   <input type="text" id="txtprocura" placeholder="Procurar..."/>
   <img src="img/lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>
