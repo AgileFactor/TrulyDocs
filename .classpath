@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="/home/andre/Desktop/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
+			<attribute name="limit-modules" value="java.se,java.se,java.se,jdk.accessibility,jdk.accessibility,jdk.accessibility,jdk.dynalink,jdk.dynalink,jdk.dynalink,jdk.httpserver,jdk.httpserver,jdk.httpserver,jdk.incubator.foreign,jdk.incubator.foreign,jdk.jartool,jdk.jartool,jdk.jartool,jdk.javadoc,jdk.javadoc,jdk.javadoc,jdk.jconsole,jdk.jconsole,jdk.jconsole,jdk.jshell,jdk.jshell,jdk.jshell,jdk.jsobject,jdk.jsobject,jdk.jsobject,jdk.management.jfr,jdk.management.jfr,jdk.management.jfr,jdk.net,jdk.net,jdk.net,jdk.nio.mapmode,jdk.nio.mapmode,jdk.nio.mapmode,jdk.sctp,jdk.sctp,jdk.sctp,jdk.security.auth,jdk.security.auth,jdk.security.auth,jdk.security.jgss,jdk.security.jgss,jdk.security.jgss,jdk.unsupported.desktop,jdk.unsupported.desktop,jdk.unsupported.desktop,jdk.xml.dom,jdk.xml.dom,jdk.xml.dom,jdk.charsets,jdk.hotspot.agent,jdk.jstatd,jdk.jcmd,jdk.crypto.cryptoki,jdk.naming.rmi,jdk.zipfs,jdk.editpad,java.smartcardio,jdk.internal.vm.compiler.management,jdk.aot,jdk.incubator.jpackage,jdk.naming.dns,jdk.localedata"/>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-15.0.2">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
@@ -20,6 +27,5 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="Lib/mysql-connector-java-8.0.23.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-15.0.2"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

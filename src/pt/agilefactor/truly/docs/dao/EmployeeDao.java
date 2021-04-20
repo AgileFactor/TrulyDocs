@@ -1,18 +1,12 @@
 package pt.agilefactor.truly.docs.dao;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import pt.agilefactor.truly.docs.model.Employee;
+import java.sql.*;
 public class EmployeeDao {
-	public int registerEmployee(Employee employee) throws ClassNotFoundException {
-        String INSERT_USERS_SQL = "INSERT INTO employee" +
-            "  (name) VALUES " +
-            " (?);";
+	public static int registerEmployee(Employee employee) throws ClassNotFoundException {
+		Class.forName("com.mysql.jdbc.Driver");
+        String INSERT_USERS_SQL = "INSERT INTO employee" + "  (name) VALUES " + " (?);";
         int result = 0;
-        Class.forName("com.mysql.jdbc.Driver");
-        try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/new_schema", "root", "password");
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/new_schema", "root", "password");
             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
             preparedStatement.setString(1, employee.getName());
             System.out.println(preparedStatement);
@@ -22,7 +16,7 @@ public class EmployeeDao {
         }
         return result;
     }
-    private void printSQLException(SQLException ex) {
+    private static void printSQLException(SQLException ex) {
         for (Throwable e: ex) {
             if (e instanceof SQLException) {
                 e.printStackTrace(System.err);

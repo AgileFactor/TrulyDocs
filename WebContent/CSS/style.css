@@ -113,3 +113,17 @@ color: white;
   color:#3366cc;
   font-weight: bold;
 }
+.createdoc{
+	width: 230px;
+  z-index: 1;
+  top: 240px;
+  left: 100px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin-left:50px;
+  margin-top:45px;
+  font-weight: bold;
+  color:#3366cc;
+  font-size:140%;
+}
