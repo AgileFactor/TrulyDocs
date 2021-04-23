@@ -6,6 +6,9 @@
 <meta charset="UTF-8">
 <title>Lista ficheiro</title>
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="dropzone/dist/dropzone.css">
+<link rel="stylesheet" type="text/css" href="dropzone/dist/basic.css">
+
 
 <img src="img/agile.png" width="160" height="110">
 </head>
@@ -16,8 +19,35 @@
   <a href="http://localhost:8082/TrulyDocs/Inicial.jsp">Página inicial</a>
   <a href="http://localhost:8082/TrulyDocs/List_Docs.jsp">Documentos</a>
   <a href="http://localhost:8082/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
-  <button class="button buttonCreateFile">Create File</button>
+  
 </div>
+
+<button id="createFile" class="button button2">Create File</button>
+
+<!-- Modal -->
+<div id="myModal" class="modalBack">
+
+  <!-- Conteudo da modal -->
+  <div class="modalConteudo">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Adicionar Ficheiro</h2>
+    </div>
+    <div class="modal-body">
+    
+    <p>Exemplo de texto na modal</p>
+      
+    </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="JS/scriptsTiago.js"></script>
+
+
 
 <!-- aba procura para pesquisar ficheiro  -->
 <div id="divprocura" style="position:absolute;top:150px;">
