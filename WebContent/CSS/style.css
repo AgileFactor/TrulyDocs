@@ -32,26 +32,6 @@ display:block;
 height:200px;
 width:200px;
 cursor:pointer;
-
-}
-.button2{
- text-align: center;
- font-size: 22px;
- margin-left:50px;
- border:none;
- margin-top:30px;
- color:#3366cc;
- font-weight: bold;
- position:absolute;
-}
-.button3{
- margin-left:1000px;
- margin-top:300px;
- text-align: center;
- font-size: 22px;
- border:none;
- color:#3366cc;
- font-weight: bold;
 }
 #divprocura{
   background-color:white;
@@ -86,9 +66,11 @@ th{
 .nd{
 text-align: left;
 }
-.cc{
-background-color:#3366cc;
-color: white;
+.tablecab{
+ background-color:#3366cc;
+ color: white;
+ border: 1px solid black;
+ height:30px;
 }
 .desc{
   width: 700px;
@@ -126,4 +108,18 @@ color: white;
   font-weight: bold;
   color:#3366cc;
   font-size:140%;
+}
+.tablerod{
+  border: 0px solid white;
+  height:30px;
+  color: white;
+  background: white;
+}.button2{
+  background: #eee;
+  overflow-x: hidden;
+  padding: 12px 0;;
+  color:#3366cc;
+  font-size:100%;
+  font-weight: bold;
+  width: 180px;
 }

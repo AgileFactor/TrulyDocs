@@ -36,12 +36,12 @@
 
 <table style="position:absolute; top:415px;">
  <tr >
-    <th class="th cc" style="width:4%"><input type="checkbox" name=mybox onClick="toggle(this)"></th>
-    <th class="th cc" style="width:28%">Name</th>
-    <th class="th cc" style="width:10%">Date</th>
-    <th class="th cc" style="width:10%">Last Updated</th>
-    <th class="th cc" style="width:30%">Short description</th>
-    <th class="th cc" style="width:10%">Operations</th>
+    <th class="tablecab" style="width:4%"><input type="checkbox" name=mybox onClick="toggle(this)"></th>
+    <th class="tablecab" style="width:28%">Name</th>
+    <th class="tablecab" style="width:10%">Date</th>
+    <th class="tablecab" style="width:10%">Last Updated</th>
+    <th class="tablecab" style="width:30%">Short description</th>
+    <th class="tablecab" style="width:10%">Operations</th>
   </tr>
  <tr>
     <th><input type="checkbox" name=mybox value="1"></th>
@@ -52,95 +52,12 @@
     <th>--------</th>
   </tr>
   <tr>
-    <th><input type="checkbox" name=mybox value="2"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="3"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="4"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="5"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="6"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="7"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="8"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="9"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="10"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="11"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
-  <tr>
-    <th><input type="checkbox" name=mybox value="12"></th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-    <th>--------</th>
-    <th class="nd">--------</th>
-    <th>--------</th>
-  </tr>
+<th class="tablerod"></th>
+<th class="tablerod"></th>
+<th class="tablerod"></th>
+<th class="tablerod"></th>
+<th class="tablerod"><button class="button2">Download Selected</button><button class="button2" style="margin-left:10px;">Delete Selected</button></th>
+</tr>
 </table>
-<button class="button3">Download Selected</button>
-<button class="button3" style="margin-left:20px">Delete Selected</button>
 </body>
 </html>

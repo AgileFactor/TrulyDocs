@@ -14,10 +14,10 @@ public class EmployeeServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private EmployeeDao employeeDao;
     public void init() {
-        setEmployeeDao(new EmployeeDao());
+    	employeeDao = new EmployeeDao();
     }
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-    throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    	doGet(request, response);
         String name = request.getParameter("name");
         Employee employee = new Employee();
         employee.setName(name);
