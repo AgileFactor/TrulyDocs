@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import pt.agilefactor.truly.docs.dao.EmployeeDao;
 import pt.agilefactor.truly.docs.model.Employee;
+
 @WebServlet("/register")
 public class EmployeeServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

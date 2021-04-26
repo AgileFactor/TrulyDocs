@@ -5,6 +5,7 @@ public class Employee implements Serializable {
     protected String name;
     public Employee() {
 	}
+    
     public Employee(String name) {
 		super();
 		this.name = name;

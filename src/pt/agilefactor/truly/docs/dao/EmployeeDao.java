@@ -22,34 +22,8 @@ public class EmployeeDao {
             printSQLException(e);
         }
         return result;
-    } 
-	public static List<Employee> selectAllUsers(){
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		String SELECT_ALL_USERS  = "select * from users";
-		// using try-with-resources to avoid closing resources (boiler plate code)
-		List<Employee> users = new ArrayList<>();
-		// Step 1: Establishing a Connection
-		try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/new_schema", "root", "password");
-	            PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL_USERS)) {
-			System.out.println(preparedStatement);
-			// Step 3: Execute the query or update query
-			ResultSet rs = preparedStatement.executeQuery();
-			// Step 4: Process the ResultSet object.
-			while (rs.next()) {
-				String name = rs.getString("name");
-				users.add(new Employee(name));
-			}
-		} catch (SQLException e) {
-			printSQLException(e);
-		}
-		return users;
-	}
-
+    }
+	
     private static void printSQLException(SQLException ex) {
         for (Throwable e: ex) {
             if (e instanceof SQLException) {

@@ -29,6 +29,7 @@ Create Doc
   <input type="text" id="txtprocura" placeholder="Procurar..."/>
   <img src="img/lupa.png" id="btnprocura" alt="Procurar" style="width:30px;height:30px;"/>
 </div>
+<form action="<%=request.getContextPath()%>/tabela" method="get">
 <table>
  <tr>
     <th class="tablecab" style="width:4%"><input type="checkbox" name=mybox onClick="toggle(this)"></th>
@@ -38,14 +39,14 @@ Create Doc
     <th class="tablecab" style="width:30%">Short description</th>
     <th class="tablecab" style="width:10%">Operations</th>
  </tr>
- <c:forEach var="book" items="${listBook}">
+  <c:forEach var="user" items="${listUser}">
  <tr>
-    <td><input type="checkbox" name=mybox value="1"></td>
-    <td class="nd"><input type="text" name="name" size="45" value="<c:out value='${book.name}'/>"/></td>
-    <td></td>
-    <td></td>
-    <td class="nd"></td>
-    <td></td>
+    <th><input type="checkbox" name=mybox value="1"></th>
+    <th class="nd"><c:out value="${user.name}" /></th>
+    <th></th>
+    <th></th>
+    <th class="nd"></th>
+    <th></th>
  </tr>
   </c:forEach>
 <tr>
@@ -56,5 +57,6 @@ Create Doc
 <td class="tablerod"><button class="button2">Download Selected</button><button class="button2" style="margin-left:10px;">Delete Selected</button></td>
 </tr>
 </table>
+</form>
 </body>
 </html>
