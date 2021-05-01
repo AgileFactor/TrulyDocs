@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="dropzone/dist/basic.css">
 
 
+
 <img src="img/agile.png" width="160" height="110">
 </head>
 <body>
@@ -19,10 +20,11 @@
   <a href="http://localhost:8082/TrulyDocs/Inicial.jsp">Página inicial</a>
   <a href="http://localhost:8082/TrulyDocs/List_Docs.jsp">Documentos</a>
   <a href="http://localhost:8082/TrulyDocs/List_Ficheiros.jsp">Ficheiros</a>
-  
+  <br>
+  <button id="createFile" class="button button2">Create File</button>
 </div>
 
-<button id="createFile" class="button button2">Create File</button>
+
 
 <!-- Modal -->
 <div id="myModal" class="modalBack">
@@ -35,11 +37,19 @@
     </div>
     <div class="modal-body">
     
-    <p>Exemplo de texto na modal</p>
-      
+    
+    <form>
+  	<label for="username">Username:</label><br>
+  	<input type="text" id="username" name="user"><br>
+  	<label for="email">Email:</label><br>
+  	<input type="text" id="email" name="em"><br>
+  	<label for="password">Password:</label><br>
+  	<input type="text" id="password" name="ps"><br>
+	</form>
+     
     </div>
     <div class="modal-footer">
-      
+      <input type="submit" value="Criar" style="float: right;">
     </div>
   </div>
 </div>
@@ -64,9 +74,6 @@
     <th class="th cc" style="width:30%">Short description</th>
     <th class="th cc" style="width:10%">Operations</th>
  </tr>
- 
-    
-   
  
 
 <body>
